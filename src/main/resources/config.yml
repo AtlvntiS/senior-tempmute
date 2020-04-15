@@ -1,0 +1,48 @@
+database:
+  url: "jdbc:mysql://localhost:3306/database"
+  username: "root"
+  password: ""
+  driver: 'com.mysql.jdbc.Driver'
+
+messages:
+
+  you_are_muted:
+    - "&cYou are muted for &f@remainingTime&c."
+
+  no_permission:
+    - "&cYou don't have permission to do this."
+
+  tempmute_usage:
+    - "&cCorrect usage: /tempmute <player> <time>"
+
+  player_not_found:
+    - "&cPlayer @player not found"
+
+  cannot_mute_yourself:
+    - "&cYou can't mute yourself."
+
+  time_examples:
+    - "&cTime examples:"
+    - "&c200, 1m, 30m, 1h, 2d, 3w."
+
+  unmute_usage:
+    - "&cCorrect usage: /unmute <player>"
+
+  already_muted:
+    - "&cThe player that you specified is already muted."
+    - "&cYou can override their mute by exceeding their mute time."
+
+  you_have_muted:
+    - "&aYou have muted &f@player &afor &f@time&a."
+
+  you_have_been_muted:
+    - "&aYou have been muted by &f@player &afor &f@time&a."
+
+  not_muted:
+    - "&cThe player that you specified is not muted."
+
+  you_have_unmuted:
+    - "&aYou have unmuted &f@player&a."
+
+  you_have_been_unmuted:
+    - "&aYou have been unmuted by &f@player&a."
